@@ -35,4 +35,4 @@ function division_division() {
 }
 
 
-math(plus_plus, minus_minus, multiplication_multiplication, division_division, nothing)
+math(plus_plus, minus_minus, multiplication_multiplication, division_division, nothing);
