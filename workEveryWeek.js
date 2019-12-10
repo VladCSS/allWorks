@@ -212,14 +212,23 @@
 // alert("blabla" in user);
 
 
-let test = {
-    I: 'vlad',
-    age: 20,
-    job: 'programer',
-};
+// let test = {
+//     I: 'vlad',
+//     age: 20,
+//     job: 'programer',
+// };
 
-for (key in test) {
+// for (key in test) {
 
-    console.log(key);
-    console.log(test[key])
-}
+//     console.log(key);
+//     console.log(test[key])
+// }
+
+
+
+// let fun = Symbol('thisId');
+// let fun2 = Symbol('thisId');
+// alert(fun == fun2);
+
+let sim = Symbol.for('blabla');
+alert(Symbol.keyFor(sim));
