@@ -230,5 +230,20 @@
 // let fun2 = Symbol('thisId');
 // alert(fun == fun2);
 
-let sim = Symbol.for('blabla');
-alert(Symbol.keyFor(sim));
+// let sim = Symbol.for('blabla');
+// alert(Symbol.keyFor(sim));
+
+let user = {
+    age: 20,
+    name: 'VasiaPupkin',
+    hobby: 'tennis',
+
+};
+
+function zetta() {
+    alert(this.hobby);
+}
+
+user.zetta = zetta;
+
+user.zetta();
