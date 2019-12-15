@@ -14,14 +14,12 @@ function BigUser() {
 
     return { name: 77 };
 
-    // return { name: "Godzilla" }; // <-- возвращает этот объект
 }
 
 let user = new BigUser();
 
 alert(user.name);
 
-// alert(new BigUser().name); // Godzilla, получили этот объект
 
 
 let testStr = 'myfavoritsubject';
